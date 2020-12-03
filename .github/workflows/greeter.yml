@@ -12,4 +12,4 @@ jobs:
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with: 
-        content: "Thank you for taking your time and effort for your contribution."
+        content: "Thank "#" you for taking your time and effort for your contribution."
