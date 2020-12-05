@@ -103,6 +103,7 @@ const Home = () => {
   const submit = (e) => {
     e.preventDefault();
     setKey(true);
+    console.log(Project);
     console.log("Submitted");
   };
   return (
