@@ -4,6 +4,7 @@ import { CssBaseline } from "@material-ui/core";
 import Home from "./Components/Home";
 import Signin from "./Components/Signin";
 import Signup from "./Components/Signup";
+import Team from "./Components/Team";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Router>
         <CssBaseline />
         <Switch>
+        <Route path="/details">
+            <Team/>
+          </Route>
           <Route path="/login">
             <Signin/>
           </Route>
